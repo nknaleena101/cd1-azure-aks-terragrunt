@@ -1,0 +1,4 @@
+state_subscription : 01b6f96b-3f79-4e73-84de-c180a438d027
+state_resource_group : terraform-state
+state_storage_account : k8sbcstatestorage3
+subscription_id: 01b6f96b-3f79-4e73-84de-c180a438d027
