@@ -28,7 +28,7 @@ remote_state {
     subscription_id      = local.subscription.state_subscription
     resource_group_name  = local.subscription.state_resource_group
     storage_account_name = local.subscription.state_storage_account
-    container_name       = "terraform-state"
+    container_name       = "terraform-state-container"
     key                  = "${path_relative_to_include()}/terraform.tfstate"
   }
 }
